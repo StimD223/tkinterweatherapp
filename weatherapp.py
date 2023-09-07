@@ -9,7 +9,7 @@ from tkinter import *
 
 citychoice = input("Enter City Here:")
 
-response = requests.get(f"http://api.weatherapi.com/v1/forecast.json?key=APIKEY9&q={citychoice}&days=1&aqi=no&alerts=yes")
+response = requests.get(f"http://api.weatherapi.com/v1/forecast.json?key=dd8c9ab097c3457580f144657230709&q={citychoice}&days=1&aqi=no&alerts=yes")
 #print(response.status_code)
 #print(response.json())
 
